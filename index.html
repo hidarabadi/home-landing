@@ -10,57 +10,337 @@
 </head>
 
 <body class="flex h-screen font-sans flex-col">
-  <main>
-    <div class="bg-[#131110] text-white  ">
+  <main class="">
+    <div class="bg-[#131110] text-white p-[30px] ">
       <header class="flex justify-between ">
-<img src="./logo.png" alt="" class="h-[50px] w-[100px] ">
-<div class="flex gap-[20px] items-center">
+        <img src="./logo.png" alt="" class="h-[40px] w-[80px] ">
+        <div class="flex gap-[20px] items-center">
 
-        <ul class="flex gap-[20px] ">
-          <li class="text-[#a0a0a0] cursor-pointer">Residencies</li>
-          <li class="text-[#a0a0a0] cursor-pointer">Our Value</li>
-          <li class="text-[#a0a0a0] cursor-pointer">Contact Us</li>
-          <li class="text-[#a0a0a0] cursor-pointer">Get Started</li>
-        </ul>
-        <button class="flex  bg-[#2949c6] text-[16px] py-2.5 px-[20px] cursor-pointer text-center rounded-[4px]">Contact</button>
-</div>
+          <ul class="flex gap-[40px] ">
+            <li class="text-[#a0a0a0] cursor-pointer text-[20px]">Residencies</li>
+            <li class="text-[#a0a0a0] cursor-pointer text-[20px]">Our Value</li>
+            <li class="text-[#a0a0a0] cursor-pointer text-[20px]">Contact Us</li>
+            <li class="text-[#a0a0a0] cursor-pointer text-[20px]">Get Started</li>
+          </ul>
+          <button
+            class="flex  bg-[#2949c6] text-[16px] py-2.5 px-[20px] cursor-pointer text-center rounded-[4px]">Contact</button>
+        </div>
 
       </header>
-      <div class="flex ">
-        <div class="flex flex-col items-center gap-[50px]">
-          <span class="font-bold text-[60px]">
+      <div class="flex  gap-[200px] p-[80px]">
+        <div class="flex flex-col  gap-[50px]">
+          <span class="font-bold text-[50px]">
             Discover <br>
             Most Suitable <br>
             Property
           </span>
           <span class="text-[#a0a0a0] ">
-            Find a variety of properties that suit you <br> very <br>
-            easilty Forget all difficulties in finding a <br> residence for you
+            Find a variety of properties that suit you very <br>
+            easilty Forget all difficulties in finding a residence for you
           </span>
-          <div>
-            <input type="text">
-            <button>Search</button>
+          <div class="flex bg-white gap-[6px] rounded-[4px] justify-between items-center p-[10px]">
+            <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="maps-location" data-name="Line Color"
+              xmlns="http://www.w3.org/2000/svg" class="icon line-color ">
+              <path id="primary"
+                d="M16,9h2.33a1,1,0,0,1,1,.84l1.67,10A1,1,0,0,1,20,21H4a1,1,0,0,1-1-1.16l1.67-10a1,1,0,0,1,1-.84H8"
+                style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+              </path>
+              <path id="secondary" d="M16,7A4,4,0,0,0,8,7c0,4,4,8,4,8S16,11,16,7Z"
+                style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+              </path>
+            </svg>
+            <input type="text" class="py-[6px] px-[30px] border-none">
+            <button class="px-[12px] py-[4px] cursor-pointer bg-[#2949c6] rounded-[4px]">Search</button>
           </div>
-          <div>
-            <div>
-              <span>9000</span>
-              <span>Premium Product</span>
+          <div class="flex gap-[8px]">
+            <div class="flex flex-col gap-[4px] ">
+              <span class="text-[36px]">9000</span>
+              <span class="text-[16px]">Premium Product</span>
             </div>
-            <span>+</span>
-            <div>
-              <span>2000</span>
-              <span>Happy Customer</span>
+            <span class="font-bold text-[25px] text-yellow-500">+</span>
+            <div class="flex flex-col gap-[4px]">
+              <span class="text-[36px]">2000</span>
+              <span class="text-[16px]">Happy Customer</span>
             </div>
-            <span>+</span>
-            <div>
-              <span>28</span>z
-              <span>Awards Winning</span>
+            <span class="font-bold text-[25px] text-yellow-500">+</span>
+            <div class="flex flex-col gap-[4px]">
+              <span class="text-[36px]">28</span>
+              <span class="text-[16px]">Awards Winning</span>
             </div>
-            <span>+</span>
+            <span class="font-bold text-[25px] text-yellow-500">+</span>
 
           </div>
         </div>
-        <div><img src="./hero-image.png" alt="" class="rounded-t-full w-[600px] h-[600px]"></div>
+        <div><img src="./hero-image.png" alt="" class="rounded-t-full w-[600px] h-[600px] border-[9px] border-gray-700">
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-between p-[60px]">
+      <img src="./1.png" alt="" class="w-[260px] h-[120px]">
+      <img src="./2.png" alt="" class="w-[260px] h-[120px]">
+      <img src="./3.png" alt="" class="w-[260px] h-[120px]">
+      <img src="./4.png" alt="" class="w-[260px] h-[120px]">
+    </div>
+    <div class="flex flex-col gap-[30px]">
+      <div class="flex justify-between">
+        <div class="flex flex-col">
+          <span class="text-yellow-700 text-[24px] font-bold">Best Choices</span>
+          <span class="text-blue-950 text-[36px] font-bold">Popular Residencies</span>
+        </div>
+        <div class="flex gap-[20px]">
+
+          <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="triple-left-sign"
+            data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+            <polyline id="secondary" points="15.5 5 8.5 12 15.5 19"
+              style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+            </polyline>
+            <polyline id="primary" points="10 19 3 12 10 5"
+              style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+            </polyline>
+            <polyline id="primary-2" data-name="primary" points="21 5 14 12 21 19"
+              style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+            </polyline>
+          </svg>
+
+          <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="triple-right-sign"
+            data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+            <polyline id="secondary" points="8.5 19 15.5 12 8.5 5"
+              style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+            </polyline>
+            <polyline id="primary" points="14 5 21 12 14 19"
+              style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+            </polyline>
+            <polyline id="primary-2" data-name="primary" points="3 19 10 12 3 5"
+              style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+            </polyline>
+          </svg>
+        </div>
+
+      </div>
+      <ul class="flex gap-[50px] "></ul>
+    </div>
+    <div class="flex p-[30px]">
+      <div>
+        <img src="./value.png" alt="" class="rounded-t-full w-[600px] h-[600px] border-[9px] border-gray-700">
+      </div>
+      <div class="flex flex-col p-[30px]">
+        <span class="text-yellow-700 text-[24px] font-bold">our value</span>
+        <span class="text-[#1f3e72] text-[36px] font-bold">Value We Give to You</span>
+        <span class="text-gray-600 text-[16px]">We always ready to help by providijng the best services for you <br>
+          We beleive a good blace to live can make your life better</span>
+
+        <div class="flex flex-col gap-[20px]">
+
+          <div class="flex flex-col border-1 border-gray-200 p-[10px]">
+
+            <div class=" flex justify-between">
+              <svg fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"
+                enable-background="new 0 0 512 512" xml:space="preserve">
+                <polygon points="437.3,30 202.7,339.3 64,200.7 0,264.7 213.3,478 512,94 " />
+              </svg>
+              <span class="text-[#1f3e72] text-[20px] font-bold">Best interest rates on the market</span>
+              <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="trekking-pole-2"
+                data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+                <path id="primary" d="M13,21V7m2,10H11"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="secondary" d="M16,3H9A1,1,0,0,0,8,4V5"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <rect id="secondary-2" data-name="secondary" x="12" y="3" width="2" height="4"
+                  transform="translate(26 10) rotate(-180)"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </rect>
+              </svg>
+
+            </div>
+            <span>Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat <br> consequat est
+              minim minim esse tempor laborum <br> consequat esse adipisicing eu reprehenderit enim.</span>
+          </div>
+          <div class="flex flex-col border-1 border-gray-200 p-[10px]">
+
+            <div class=" flex justify-between">
+              <svg fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"
+                enable-background="new 0 0 512 512" xml:space="preserve">
+                <polygon points="437.3,30 202.7,339.3 64,200.7 0,264.7 213.3,478 512,94 " />
+              </svg>
+              <span class="text-[#1f3e72] text-[20px] font-bold">Prevent unstable prices</span>
+              <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="trekking-pole-2"
+                data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+                <path id="primary" d="M13,21V7m2,10H11"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="secondary" d="M16,3H9A1,1,0,0,0,8,4V5"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <rect id="secondary-2" data-name="secondary" x="12" y="3" width="2" height="4"
+                  transform="translate(26 10) rotate(-180)"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </rect>
+              </svg>
+
+            </div>
+            <span>Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat <br> consequat est
+              minim minim esse tempor laborum <br> consequat esse adipisicing eu reprehenderit enim.</span>
+          </div>
+          <div class="flex flex-col border-1 border-gray-200 p-[10px]">
+
+            <div class=" flex justify-between">
+              <svg fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"
+                enable-background="new 0 0 512 512" xml:space="preserve">
+                <polygon points="437.3,30 202.7,339.3 64,200.7 0,264.7 213.3,478 512,94 " />
+              </svg>
+              <span class="text-[#1f3e72] text-[20px] font-bold">Best price on the market</span>
+              <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="trekking-pole-2"
+                data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+                <path id="primary" d="M13,21V7m2,10H11"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="secondary" d="M16,3H9A1,1,0,0,0,8,4V5"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <rect id="secondary-2" data-name="secondary" x="12" y="3" width="2" height="4"
+                  transform="translate(26 10) rotate(-180)"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </rect>
+              </svg>
+
+            </div>
+            <span>Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat <br> consequat est
+              minim minim esse tempor laborum <br> consequat esse adipisicing eu reprehenderit enim.</span>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    <div class="flex justify-between p-[20px] gap-[20px]">
+      <div class="flex flex-col">
+        <div class="flex flex-col gap-[8px]">
+          <span class="text-[20px] text-yellow-700 font-bold">Our Contact Us</span>
+          <span class="text-[36px] font-bold text-[#1f3e72]">Easy to contact us</span>
+          <span class="text-gray-600 text-[16px]">We always ready to help by providijng the best services for you. <br>
+            We beleive a good blace to live can make your life better</span>
+        </div>
+        <div>
+          <div class="flex flex-col gap-[10px]">
+            <div class="flex gap-[10px] ">
+              <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="call" data-name="Line Color"
+                xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+                <path id="secondary" d="M12,7a5,5,0,0,1,5,5"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="secondary-2" data-name="secondary"
+                  d="M11,3.06A8.26,8.26,0,0,1,12,3a9,9,0,0,1,9,9,8.26,8.26,0,0,1-.06,1"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="primary"
+                  d="M15,21a13.21,13.21,0,0,1-4.34-1.91l1.82-2.61a2,2,0,0,1,2.68-.51c.33.21.67.4,1,.59A2,2,0,0,1,17,19.38l-.62.95A1.17,1.17,0,0,1,15,21ZM3.67,7.67l1-.62a2,2,0,0,1,2.85.73c.19.36.38.7.59,1a2,2,0,0,1-.51,2.68L4.94,13.31A13.21,13.21,0,0,1,3,9,1.17,1.17,0,0,1,3.67,7.67Z"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="primary-2" data-name="primary"
+                  d="M4.94,13.31a17.72,17.72,0,0,0,2.58,3.17,17.72,17.72,0,0,0,3.17,2.58"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+              </svg>
+              <span class="text-[#1f3e72] text-[16px] font-bold">call</span>
+            </div>
+            <span class="text-gray-600 text-[16px]">021 123 145 14</span>
+            <button class=" bg-[#999696af] text-[16px] text-[#2563eb] font-bold cup">call now</button>
+          </div>
+
+        </div>
+        <div>
+          <div class="flex flex-col gap-[10px]">
+            <div class="flex gap-[10px] ">
+              <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="call" data-name="Line Color"
+                xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+                <path id="secondary" d="M12,7a5,5,0,0,1,5,5"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="secondary-2" data-name="secondary"
+                  d="M11,3.06A8.26,8.26,0,0,1,12,3a9,9,0,0,1,9,9,8.26,8.26,0,0,1-.06,1"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="primary"
+                  d="M15,21a13.21,13.21,0,0,1-4.34-1.91l1.82-2.61a2,2,0,0,1,2.68-.51c.33.21.67.4,1,.59A2,2,0,0,1,17,19.38l-.62.95A1.17,1.17,0,0,1,15,21ZM3.67,7.67l1-.62a2,2,0,0,1,2.85.73c.19.36.38.7.59,1a2,2,0,0,1-.51,2.68L4.94,13.31A13.21,13.21,0,0,1,3,9,1.17,1.17,0,0,1,3.67,7.67Z"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="primary-2" data-name="primary"
+                  d="M4.94,13.31a17.72,17.72,0,0,0,2.58,3.17,17.72,17.72,0,0,0,3.17,2.58"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+              </svg>
+              <span class="text-[#1f3e72] text-[16px] font-bold">call</span>
+            </div>
+            <span class="text-gray-600 text-[16px]">021 123 145 14</span>
+            <button class=" bg-[#999696af] text-[16px] text-[#2563eb] font-bold cup">call now</button>
+          </div>
+
+        </div>
+        <div>
+          <div class="flex flex-col gap-[10px]">
+            <div class="flex gap-[10px] ">
+              <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="call" data-name="Line Color"
+                xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+                <path id="secondary" d="M12,7a5,5,0,0,1,5,5"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="secondary-2" data-name="secondary"
+                  d="M11,3.06A8.26,8.26,0,0,1,12,3a9,9,0,0,1,9,9,8.26,8.26,0,0,1-.06,1"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="primary"
+                  d="M15,21a13.21,13.21,0,0,1-4.34-1.91l1.82-2.61a2,2,0,0,1,2.68-.51c.33.21.67.4,1,.59A2,2,0,0,1,17,19.38l-.62.95A1.17,1.17,0,0,1,15,21ZM3.67,7.67l1-.62a2,2,0,0,1,2.85.73c.19.36.38.7.59,1a2,2,0,0,1-.51,2.68L4.94,13.31A13.21,13.21,0,0,1,3,9,1.17,1.17,0,0,1,3.67,7.67Z"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="primary-2" data-name="primary"
+                  d="M4.94,13.31a17.72,17.72,0,0,0,2.58,3.17,17.72,17.72,0,0,0,3.17,2.58"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+              </svg>
+              <span class="text-[#1f3e72] text-[16px] font-bold">call</span>
+            </div>
+            <span class="text-gray-600 text-[16px]">021 123 145 14</span>
+            <button class=" bg-[#999696af] text-[16px] text-[#2563eb] font-bold cup">call now</button>
+          </div>
+
+        </div>
+        <div>
+          <div class="flex flex-col gap-[10px]">
+            <div class="flex gap-[10px] ">
+              <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="call" data-name="Line Color"
+                xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+                <path id="secondary" d="M12,7a5,5,0,0,1,5,5"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="secondary-2" data-name="secondary"
+                  d="M11,3.06A8.26,8.26,0,0,1,12,3a9,9,0,0,1,9,9,8.26,8.26,0,0,1-.06,1"
+                  style="fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="primary"
+                  d="M15,21a13.21,13.21,0,0,1-4.34-1.91l1.82-2.61a2,2,0,0,1,2.68-.51c.33.21.67.4,1,.59A2,2,0,0,1,17,19.38l-.62.95A1.17,1.17,0,0,1,15,21ZM3.67,7.67l1-.62a2,2,0,0,1,2.85.73c.19.36.38.7.59,1a2,2,0,0,1-.51,2.68L4.94,13.31A13.21,13.21,0,0,1,3,9,1.17,1.17,0,0,1,3.67,7.67Z"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+                <path id="primary-2" data-name="primary"
+                  d="M4.94,13.31a17.72,17.72,0,0,0,2.58,3.17,17.72,17.72,0,0,0,3.17,2.58"
+                  style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+                </path>
+              </svg>
+              <span class="text-[#1f3e72] text-[16px] font-bold">call</span>
+            </div>
+            <span class="text-gray-600 text-[16px]">021 123 145 14</span>
+            <button class=" bg-[#999696af] text-[16px] text-[#2563eb] font-bold cup">call now</button>
+          </div>
+
+        </div>
+      </div>
+      <div>
+        <img src="./contact.jpg" alt="" class="rounded-t-full w-[600px] h-[600px] border-[9px] border-gray-700">
       </div>
     </div>
   </main>
